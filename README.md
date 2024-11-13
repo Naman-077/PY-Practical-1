@@ -14,7 +14,7 @@ def find_roots(a, b, c):
     else:
         print("Roots are not real")
 
-# Input
+'''output
 try:
     a, b, c = map(float, input("Enter the coefficients a, b, c separated by commas: ").split(','))
     if a == 0:
@@ -23,3 +23,4 @@ try:
         find_roots(a, b, c)
 except ValueError:
     print("Invalid input. Please enter numeric values for a, b, and c.")
+'''
